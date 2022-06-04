@@ -1,4 +1,4 @@
-package LiuboProject;
+package Project;
 
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;

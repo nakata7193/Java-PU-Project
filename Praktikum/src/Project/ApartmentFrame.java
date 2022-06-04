@@ -1,4 +1,4 @@
-package LiuboProject;
+package Project;
 
 import java.awt.Dimension;
 import java.awt.GridLayout;
@@ -45,9 +45,9 @@ public class ApartmentFrame extends JFrame {
 	JPanel clientsPanel3 = new JPanel();
 	
 	//LABELS
-	JLabel clFNameL = new JLabel("ИМЕ:");
-	JLabel clLNameL = new JLabel("ФАМИЛИЯ:");
-	JLabel ageL = new JLabel("ГОДИНИ:");
+	JLabel clFNameL = new JLabel("пїЅпїЅпїЅ:");
+	JLabel clLNameL = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:");
+	JLabel ageL = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅ:");
 
 	//TEXTFIELDS
 	JTextField clFNameTF = new JTextField();
@@ -55,10 +55,10 @@ public class ApartmentFrame extends JFrame {
 	JTextField clageTF = new JTextField();
 	
 	//BUTTONS
-	JButton clADD = new JButton("ДОБАВИ");
-	JButton clDelete = new JButton("ИЗТРИЙ");
-	JButton clUpdate = new JButton("ПРОМЕНИ");
-	JButton clShowAll = new JButton("ПОКАЖИ ВСИЧКИ");
+	JButton clADD = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton clDelete = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton clUpdate = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton clShowAll = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 	
 	//TABLE
 	JTable tableClients = new JTable();
@@ -75,11 +75,11 @@ public class ApartmentFrame extends JFrame {
 	JPanel apartmentPanel3 = new JPanel();
 	
 	//----LABELS------//
-	JLabel kvadraturaL = new JLabel("Квадрати:");
-	JLabel kvartalL = new JLabel("Квартал:");
-	JLabel agenAPL = new JLabel("Агенция:");
-	JLabel cityL = new JLabel("Град:");
-	JLabel priceL = new JLabel("Цена:");
+	JLabel kvadraturaL = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:");
+	JLabel kvartalL = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:");
+	JLabel agenAPL = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:");
+	JLabel cityL = new JLabel("пїЅпїЅпїЅпїЅ:");
+	JLabel priceL = new JLabel("пїЅпїЅпїЅпїЅ:");
 	
 	//----COMBOBOX----//
 	JComboBox<String> comboAg = new JComboBox<String>();
@@ -91,10 +91,10 @@ public class ApartmentFrame extends JFrame {
 	JTextField priceTF = new JTextField();
 	
 	//----BUTTONS----//
-	JButton APAdd = new JButton("Добави");
-	JButton APDelete = new JButton("Изтрий");
-	JButton APUpdate = new JButton("Промени");
-	JButton APShowAll = new JButton("Покажи всички");
+	JButton APAdd = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton APDelete = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton APUpdate = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton APShowAll = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 	
 	//-----TABLE----//
 	JTable APTable = new JTable();
@@ -110,16 +110,16 @@ public class ApartmentFrame extends JFrame {
 	JPanel agenciPanel3 = new JPanel();
 	
 	//LABELS
-	JLabel AGNameL = new JLabel("ИМЕ:");
+	JLabel AGNameL = new JLabel("пїЅпїЅпїЅ:");
 	
 	//TEXTFIELDS
 	JTextField AGNameTF = new JTextField();
 	
 	//BUTTONS
-	JButton AGAdd = new JButton("ДОБАВИ");
-	JButton AGDelete = new JButton("ИЗТРИЙ");
-	JButton AGUpdate = new JButton("ПРОМЕНИ");
-	JButton AGShowAll = new JButton("ПОКАЖИ ВСИЧКИ");
+	JButton AGAdd = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton AGDelete = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton AGUpdate = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+	JButton AGShowAll = new JButton("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 	
 	//TABLE
 	JTable tableAgenci = new JTable();
@@ -136,14 +136,14 @@ public class ApartmentFrame extends JFrame {
 	JPanel sprPanel3 = new JPanel();
 	
 	//--------------LABELS------------//
-	JLabel SpriceL = new JLabel("ЦЕНА:");
-	JLabel SagencyL = new JLabel("АГЕНЦИЯ:");
+	JLabel SpriceL = new JLabel("пїЅпїЅпїЅпїЅ:");
+	JLabel SagencyL = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:");
 	
 	//-------TEXTFIELD----------------//
 	JTextField SpriceTF = new JTextField();
 	
 	//-------------BUTTONS-----------//
-	JButton searchS = new JButton("Търси");
+	JButton searchS = new JButton("пїЅпїЅпїЅпїЅпїЅ");
 	
 	//--------------Combo----------//
 	JComboBox<String> ScomboAg = new JComboBox<String>();
@@ -161,10 +161,10 @@ public class ApartmentFrame extends JFrame {
 		this.setSize(600, 720);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
-		tab.add(clientsP, "Клиенти");
-		tab.add(apartmentsP, "Апартаменти");
-		tab.add(agenciesP, "Агенции");
-		tab.add(spravkaP, "Справки по цена");
+		tab.add(clientsP, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+		tab.add(apartmentsP, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+		tab.add(agenciesP, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+		tab.add(spravkaP, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ");
 		
 		
 		//------------------------------CLIENTS TAB-----------------------------------------------------//
